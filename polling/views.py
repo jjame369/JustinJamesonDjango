@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import Http404
-from ..polling.models import Poll
+from polling.models import Poll
 
 
 def list_view(request):
